@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+}
+
+aside {
+    width: 50%;
+    height: 100%;
+}
+
+.display {
+    
+    background-image: url('./../../assets/images/Rectangle26.png');
+    background-position: center;
+    background-size: cover;
+}
