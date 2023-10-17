@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,14 +13,154 @@
     display: flex;
 }
 
+h1, p {
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.display > p{
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+    line-height: 1;
+}
+
 aside {
     width: 50%;
     height: 100%;
 }
 
 .display {
-    
     background-image: url('./../../assets/images/Rectangle26.png');
     background-position: center;
     background-size: cover;
+}
+
+.plane {
+    display: flex;
+    justify-content: right;
+    margin-top: 2rem;
+}
+
+.details {
+    text-align: center;
+}
+
+.details h2{
+    color: #009EE2;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details > p {
+    color: lightslategray;
+}
+
+.input-container {
+    margin-top: 2rem;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+    margin: 1.5rem;
+}
+
+input {
+    width: 45%;
+    padding: 1rem .5rem;
+    border: 1px solid #009EE2;
+    border-radius: 7px;
+}
+
+button {
+    display: block;
+    margin: 1.5rem auto;
+    width: 130px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #009EE2;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #207bd1;
+}
+
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}  */
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: .5rem auto;
+}
+
+.or p {
+    color: black;
+}
+
+.or > div{
+    width: 120px;
+    height: 2px;
+    background-color: rgb(193, 201, 209);
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem auto;
+}
+
+.logo {
+    background-color: rgb(238, 241, 243);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login > p {
+    color: black;
+    /* margin-top: 2rem; */
+}
+
+.login > a {
+    color: lightslategray;
+    text-decoration: none;
+    position: relative;
+    left: 7.8rem;
+}
+
+.login > p > a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
 }
