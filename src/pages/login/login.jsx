@@ -26,16 +26,15 @@ const Login = () => {
                         <h2>Welcome</h2>
                         <p>Login with Email</p>
                         <div class="input-container" >
-                            <label>Email: 
-                            <input type="text" placeholder="thisuis@mail.com"/>
-                            </label>
+                            
+                            <input type="text" placeholder="enter your mail"/>
+                         
                             {/* <div className="icon">
                             <LuMail size={27}/>
                             </div> */}
-
-                            <label >Pcode:
-                            <input type="password" placeholder="**********"/>
-                            </label>
+                        
+                            <input type="password" placeholder="enter password"/>
+                      
                             {/* <div className="icon">
                             <FiLock size={27}/>
                             </div> */}

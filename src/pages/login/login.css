@@ -63,22 +63,26 @@ aside {
 
 .input-container {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-label {
+/* label {
     display: block;
     font-weight: bold;
     color: #333;
     font-size: 24px;
     margin: 1.5rem;
-}
+} */
 
 input {
     width: 45%;
     padding: 1rem .5rem;
     border: 1px solid #009EE2;
     border-radius: 7px;
+    margin: 1rem auto;
 }
 
 button {
@@ -149,7 +153,7 @@ button:focus-visible {
     color: lightslategray;
     text-decoration: none;
     position: relative;
-    left: 7.8rem;
+    left: 6.2rem;
 }
 
 .login > p > a {
